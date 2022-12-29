@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply font-Poppins
+}
+
+.Plante{@apply text-[#74CB48] border-[#74CB48]} 
+.Poison{@apply text-[#A43E9E] border-[#A43E9E]}
+.Feu{@apply text-[#F57D31] border-[#F57D31]}
+.Vol{@apply text-[#A891EC] border-[#A891EC]} 
+.Eau{@apply text-[#6493EB] border-[#6493EB]}  
+.Insecte{@apply text-[#A7B723] border-[#A7B723]}
+.Normal{@apply text-[#AAA67F] border-[#AAA67F]}
+.Électrik{@apply text-[#F9CF30] border-[#F9CF30]}
+.Sol{@apply text-[#DEC16B] border-[#DEC16B]}
+.Psy{@apply text-[#FB5584] border-[#FB5584]}
+.Combat{@apply text-[#C12239] border-[#C12239]}
+.Roche{@apply text-[#B69E31] border-[#B69E31]}
+.Spectre{@apply text-[#70559B] border-[#70559B]}
+.Fée{@apply text-[#E69EAC] border-[#E69EAC]}
+.Glace{@apply text-[#9AD6DF] border-[#9AD6DF]}
+.Ténèbres{@apply text-[#75574C] border-[#75574C]}
+.Acier{@apply text-[#B7B9D0] border-[#B7B9D0]}
+.Dragon{@apply text-[#7037FF] border-[#7037FF]}
+
+.bg_Plante{@apply bg-[#74CB48]} 
+.bg_Poison{@apply bg-[#A43E9E]}
+.bg_Feu{@apply bg-[#F57D31]}
+.bg_Vol{@apply bg-[#A891EC]} 
+.bg_Eau{@apply bg-[#6493EB]}  
+.bg_Insecte{@apply bg-[#A7B723]}
+.bg_Normal{@apply bg-[#AAA67F]}
+.bg_Électrik{@apply bg-[#F9CF30]}
+.bg_Sol{@apply bg-[#DEC16B]}
+.bg_Psy{@apply bg-[#FB5584]}
+.bg_Combat{@apply bg-[#C12239]}
+.bg_Roche{@apply bg-[#B69E31]}
+.bg_Spectre{@apply bg-[#70559B]}
+.bg_Fée{@apply bg-[#E69EAC]}
+.bg_Glace{@apply bg-[#9AD6DF]}
+.bg_Ténèbres{@apply bg-[#75574C]}
+.bg_Acier{@apply bg-[#B7B9D0]}
+.bg_Dragon{@apply bg-[#7037FF]}
+.bg_1{@apply bg-red-500}

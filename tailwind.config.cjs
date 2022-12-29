@@ -1,0 +1,40 @@
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  theme: {
+    screens: {
+      xxs: { min: "310px", max: "369px" },
+      xs: { min: "370px", max: "389px" },
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      "2xl": "1536px",
+    },
+    extend: {
+      fontFamily: {
+        Poppins: "Poppins",
+      },
+      colors: {
+        Plante: "#74CB48",
+        Poison: "#A43E9E",
+        Feu: "#F57D31",
+        Vol: "#A891EC",
+        Eau: "#6493EB",
+        Insecte: "#A7B723",
+        Normal: "#AAA67F",
+        Électrick: "#F9CF30",
+        Sol: "#DEC16B",
+        Psy: "#FB5584",
+        Combat: "#C12239",
+        Roche: "#B69E31",
+        Spectre: "#70559B",
+        Fée: "#E69EAC",
+        Glace: "#9AD6DF",
+        Ténèbres: "#75574C",
+        Acier: "#B7B9D0",
+        Dragon: "#7037FF",
+      },
+    },
+  },
+  plugins: [],
+};
